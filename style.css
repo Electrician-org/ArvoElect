@@ -255,26 +255,4 @@ body {
     display: block;
     cursor: pointer;
   }
-   /* LOGO STYLING */
-.logo-img {
-  height: 80px;          /* Clear visibility on desktop */
-  width: auto;
-  display: block;
-}
-
-/* Optional: slight glow if background is dark */
-.logo-img {
-  filter: drop-shadow(0 0 6px rgba(0,102,255,0.25));
-}
-
-/* Responsive size */
-@media (max-width: 768px) {
-  .logo-img {
-    height: 60px;
-  }
-}
-
-  .hero h1 {
-    font-size: 30px;
-  }
-}
+  
